@@ -82,3 +82,24 @@ main {
 .btn:hover {
   background-color: black;
 }
+
+@media screen and (max-width: 700px) {
+
+  body {
+    max-width: 100%;
+  }
+  nav {
+    box-sizing: border-box;
+  }
+  main {
+    margin-top: 100px;
+  }
+
+  .container {
+    margin: 1em;
+    box-sizing: border-box;
+  }
+  .color-span {
+    text-align: center;
+  }
+}
